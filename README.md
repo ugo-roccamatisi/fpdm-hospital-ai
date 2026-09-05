@@ -18,6 +18,7 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 
 ## Results
 
+- Overall accuracy of 73% on 7-category length-of-stay classification (XGBoost, evaluated on 26,950 stays).
 - Tool delivered to the hospital for production use, after 10 iterations with medical staff and over 1,800 hours of cumulative work.
 - Project approach published at the IEEE SMC international conference: Bensafir et al., "A Large Language Model-enhanced expert system for patient triage in Emergency Department and a Machine Learning Classifier for hospital admissions forecasting", IEEE SMC, Vienna, 2025. [Open access on HAL](https://hal.science/hal-05289706).
 
@@ -26,6 +27,12 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 | | |
 |---|---|
 | ![LLM structured extraction](docs/chu-llm.png) | ![MIMIC-IV data preparation](docs/chu-mimic.png) |
+| ![Prediction dataset pipeline](docs/chu-dataset.png) | ![Per-class evaluation](docs/chu-results.png) |
+| ![System architecture](docs/chu-archi.png) | |
+
+## Demos
+
+Short screen captures of the tool in action: length-of-stay prediction from the form and from free text (including extraction-error handling), patient triage, multi-report extraction, and the interface.
 
 ## Reports
 
