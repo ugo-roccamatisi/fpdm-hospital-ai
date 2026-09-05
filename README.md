@@ -19,7 +19,7 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 ## Results
 
 - Tool delivered to the hospital for production use, after 10 iterations with medical staff and over 1,800 hours of cumulative work.
-- Approach published at the IEEE SMC international conference.
+- Project approach published at the IEEE SMC international conference: Bensafir et al., "A Large Language Model-enhanced expert system for patient triage in Emergency Department and a Machine Learning Classifier for hospital admissions forecasting", IEEE SMC, Vienna, 2025. [Open access on HAL](https://hal.science/hal-05289706).
 
 ## Figures
 
