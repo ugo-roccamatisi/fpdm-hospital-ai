@@ -34,4 +34,4 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 
 ## Team and context
 
-A Centrale Lille group project (2023 to 2025, 12 students) with CHU de Lille and SIB. Data: MIMIC-IV under the PhysioNet credentialed data use agreement; no patient data is included in this repository. See also my [portfolio](https://ugo-roccamatisi.github.io).
+A Centrale Lille group project (2023 to 2025, 12 students) with CHU de Lille and SIB. Data: MIMIC-IV under the PhysioNet credentialed data use agreement; no patient data is included in this repository. More on my [portfolio](https://ugo-roccamatisi.github.io).
