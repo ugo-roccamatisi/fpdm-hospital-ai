@@ -32,8 +32,6 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 
 ## Demos
 
-Short screen captures of the tool in action: length-of-stay prediction from the form and from free text (including extraction-error handling), patient triage, multi-report extraction, and the interface.
-
 ### Length-of-stay prediction from the form
 
 https://github.com/user-attachments/assets/53f6f2ef-ae94-4c06-a4fe-4dbcec75f80f
@@ -69,6 +67,7 @@ https://github.com/user-attachments/assets/a9a5fd44-5913-4b79-8b57-8bacb7f37ae4
 https://github.com/user-attachments/assets/0e0b7077-0ce6-4c27-b091-8f4d365bb391
 
 </details>
+
 ## Reports
 
 - [User report](report/rapport-utilisateur.pdf) (French)
