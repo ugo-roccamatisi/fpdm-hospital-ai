@@ -13,7 +13,7 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 ## What the system does
 
 1. **Extraction**: a local LLM (OpenHermes 2.5, Mistral 7B via llama.cpp) turns free-text medical reports into structured JSON records.
-2. **Prediction**: an XGBoost classifier (with PCA reduction), trained on 300,000 patients from the MIMIC-IV database, predicts length of stay in 7 categories with per-category probabilities.
+2. **Prediction**: an XGBoost classifier (with PCA reduction), trained on 300,000 patients from the MIMIC-IV database, predicts length of stay in 7 categories with per-category probabilities, benchmarked against a TensorFlow recurrent network at equal overall accuracy.
 3. **Triage**: rule-based and AI-assisted triage of incoming patients, plus an API and interface for hospital staff.
 
 ## Results
@@ -32,41 +32,7 @@ I led the length-of-stay prediction team: turning raw clinical data into forecas
 
 ## Demos
 
-### Length-of-stay prediction from the form
-
-https://github.com/user-attachments/assets/53f6f2ef-ae94-4c06-a4fe-4dbcec75f80f
-
-<details>
-<summary><b>Prediction from free text, with extraction-error handling</b></summary>
-<br>
-
-https://github.com/user-attachments/assets/5f96c5ca-c4cd-4104-92b7-e05a9c630565
-
-</details>
-
-<details>
-<summary><b>Patient triage</b></summary>
-<br>
-
-https://github.com/user-attachments/assets/193ce04f-9c10-4eb6-9d17-e0fefd69483e
-
-</details>
-
-<details>
-<summary><b>Multi-report extraction</b></summary>
-<br>
-
-https://github.com/user-attachments/assets/a9a5fd44-5913-4b79-8b57-8bacb7f37ae4
-
-</details>
-
-<details>
-<summary><b>The application interface</b></summary>
-<br>
-
-https://github.com/user-attachments/assets/0e0b7077-0ce6-4c27-b091-8f4d365bb391
-
-</details>
+Short screen captures of the tool in action: length-of-stay prediction from the form and from free text (including extraction-error handling), patient triage, multi-report extraction, and the interface.
 
 ## Reports
 
