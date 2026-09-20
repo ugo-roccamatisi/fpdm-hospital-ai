@@ -2,7 +2,7 @@
 
 A hospital generates thousands of clinical reports, prescriptions and notes, but most of it lives in free-text fields no system can query. Over 18 months, a team of 12 students at Centrale Lille built a tool that reads these unstructured records, indexes them with a locally-run LLM, triages patients by criticality and predicts length of stay, for CHU de Lille and SIB, editor of the Sillage patient-record software used in 80% of French hospitals.
 
-**This is a project showcase repository: the source code is private at the hospital partners' request.** The figures and the two project reports (French) below document the work.
+**This is a project showcase repository: source code is not redistributed here because it was produced with hospital and academic partners.** The figures and the two project reports (French) below document the work. Any source code that may exist in a separate team repository remains governed by that repository's owners and permissions.
 
 ![End-to-end demo: clinical text in, predicted length of stay out](docs/chu-prediction.png)
 
@@ -38,6 +38,10 @@ Short screen captures of the tool in action: length-of-stay prediction from the 
 
 - [User report](report/rapport-utilisateur.pdf) (French)
 - [Technical report](report/rapport-technique.pdf) (French)
+
+## Rights and attribution
+
+The reports and figures are shared for portfolio and academic-review purposes. Copyright remains with their respective authors and partner institutions; no reuse licence is granted for those materials.
 
 ## Team and context
 
